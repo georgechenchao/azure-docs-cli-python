@@ -3,13 +3,6 @@
   "need_generate_pdf": false,
   "need_preview_pull_request": true,
   "need_generate_intellisense": false,
-  "customized_tasks": [
-    {
-      "repo_setup": [
-        "_dependentPackages/CommonPlugins/tools/AzureCLI-MergeTOC.ps1"
-        ]
-    }
-  ],
   "docsets_to_publish": [
     {
       "docset_name": "azure-cli-docs",
@@ -66,10 +59,6 @@
       "version": "latest"
     }
   ],
-  "MergeMDTocPlugin": {
-    "AutogenTocFolder": "docs-ref-autogen",
-    "ConceptTocFolder": "docs-ref-conceptual"
-  },
   "JoinTOCPlugin": [
     {
       "TopLevelTOC": "latest/docs-ref-autogen/toc.yml",
