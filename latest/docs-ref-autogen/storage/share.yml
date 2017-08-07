@@ -150,8 +150,6 @@ items:
   parameters:
   - name: --include-metadata
     summary: Specifies that share metadata be returned in the response.
-  - name: --marker
-    summary: An opaque continuation token. This value can be retrieved from the next_marker field of a previous generator object if num_results was specified and that generator has finished enumerating results. If specified, this generator will begin returning results from the point where the previous generator stopped.
   - name: --num-results
     summary: Specifies the maximum number of shares to return.
   - name: --prefix

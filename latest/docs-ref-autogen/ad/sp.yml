@@ -36,7 +36,7 @@ items:
   - summary: Create with a default role assignment.
     syntax:
       content: az ad sp create-for-rbac
-  - summary: Create using a custom name, and with a default assiggment.
+  - summary: Create using a custom name, and with a default assignment.
     syntax:
       content: az ad sp create-for-rbac -n "http://MyApp"
   - summary: Create without a default assignment.

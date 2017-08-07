@@ -58,6 +58,9 @@ items:
   - name: --encryption
     parameterValueGroup: blob, file, queue, table
     summary: Specifies which service(s) to encrypt.
+  - name: --https-only
+    parameterValueGroup: false, true
+    summary: Allows https traffic only to storage service.
   - name: --kind
     defaultValue: Storage
     parameterValueGroup: BlobStorage, Storage
@@ -251,6 +254,9 @@ items:
   - name: --encryption
     parameterValueGroup: blob, file, queue, table
     summary: Specifies which service(s) to encrypt.
+  - name: --https-only
+    parameterValueGroup: false, true
+    summary: Allows https traffic only to storage service.
   - name: --sku
     parameterValueGroup: Premium_LRS, Standard_GRS, Standard_LRS, Standard_RAGRS, Standard_ZRS
     summary: The storage account SKU.
