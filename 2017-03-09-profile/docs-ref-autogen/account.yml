@@ -48,6 +48,8 @@ items:
   parameters:
   - name: --all
     summary: List all subscriptions, rather just 'Enabled' ones.
+  - name: --refresh
+    summary: Retrieve up to date subscriptions from server.
   source:
     path: src/command_modules/azure-cli-profile/azure/cli/command_modules/profile/_help.py
     remote:

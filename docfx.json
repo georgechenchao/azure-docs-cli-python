@@ -18,6 +18,14 @@
       },
       {
         "files": [
+          "TOC.yml"
+        ],
+        "src": "2017-03-09-profile/docs-ref-autogen",
+        "version": "azure-cli-2017-03-09-profile",
+        "dest": "command"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
@@ -53,7 +61,7 @@
       },
       {
         "files": [
-          "**/TOC.md",
+          "**/*.md",
           "**/*.yml"
         ],
         "exclude": [
