@@ -1,5 +1,5 @@
 - name: Reference
-  uid: reference
+  uid: index
   items:
   - name: Configure
     uid: az_configure
