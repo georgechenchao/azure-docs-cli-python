@@ -143,10 +143,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-Metadata:
-  doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
-  doc_source_url_path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
-  original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
-  gitcommit: https://github.com/azure/azure-cli//blob/dd91433b36f95e9c849cbbcecccb0f610a8f0a3c/src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
-  updated_at: 7/18/2017 11:56:55 PM
-  ms.date: 7/18/2017
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
+doc_source_url_path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/dd91433b36f95e9c849cbbcecccb0f610a8f0a3c/src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
+updated_at: 7/18/2017 11:56:55 PM
+ms.date: 7/18/2017
