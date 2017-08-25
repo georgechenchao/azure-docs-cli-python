@@ -3,6 +3,7 @@ items:
 - uid: az_acs_dcos
   name: az acs dcos
   summary: Manage a DCOS orchestrated Azure container service.
+  description: ''
   langs:
   - azurecli
   children:
@@ -11,19 +12,24 @@ items:
 - uid: az_acs_dcos_browse
   name: az acs dcos browse
   summary: Creates an SSH tunnel to the Azure container service, and opens the Mesosphere DC/OS dashboard in the browser.
+  description: ''
   langs:
   - azurecli
   parameters:
   - isRequired: true
     name: --name -n
     summary: ACS cluster name. You can configure the default using az configure --defaults acs=<name>.
+    description: ''
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    description: ''
   - name: --disable-browser
     summary: Do not open browser after opening a proxy to the cluster web user interface.
+    description: ''
   - name: --ssh-key-file
     summary: Path to the SSH key to use.
+    description: ''
   source:
     path: src/command_modules/azure-cli-acs/azure/cli/command_modules/acs/_help.py
     remote:
@@ -33,15 +39,18 @@ items:
 - uid: az_acs_dcos_install_cli
   name: az acs dcos install-cli
   summary: Downloads the dcos command line from Mesosphere.
+  description: ''
   langs:
   - azurecli
   parameters:
   - name: --client-version
     defaultValue: "1.8"
     summary: ''
+    description: ''
   - name: --install-location
     defaultValue: C:Program Filesdcos.exe
     summary: ''
+    description: ''
   source:
     path: src/command_modules/azure-cli-acs/azure/cli/command_modules/acs/_help.py
     remote:
@@ -68,3 +77,10 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
+Metadata:
+  doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
+  doc_source_url_path: src/command_modules/azure-cli-acs/azure/cli/command_modules/acs/_help.py
+  original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-acs/azure/cli/command_modules/acs/_help.py
+  gitcommit: https://github.com/azure/azure-cli//blob/2a59cee5b632bc714d439531b08f038cf7b1cf9e/src/command_modules/azure-cli-acs/azure/cli/command_modules/acs/_help.py
+  updated_at: 7/13/2017 5:43:38 PM
+  ms.date: 7/13/2017

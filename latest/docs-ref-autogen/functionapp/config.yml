@@ -3,6 +3,7 @@ items:
 - uid: az_functionapp_config
   name: az functionapp config
   summary: Configure a function app.
+  description: ''
   langs:
   - azurecli
   children: []
@@ -65,3 +66,4 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
+Metadata: {}

@@ -5502,6 +5502,9 @@
       - name: Download
         uid: az_webapp_log_download
         displayName: az webapp log download
+      - name: Show
+        uid: az_webapp_log_show
+        displayName: az webapp log show
       - name: Tail
         uid: az_webapp_log_tail
         displayName: az webapp log tail

@@ -3,6 +3,7 @@ items:
 - uid: az_mysql
   name: az mysql
   summary: Commands to manage Azure Database for MySQL servers.
+  description: ''
   langs:
   - azurecli
   children: []
@@ -86,3 +87,4 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
+Metadata: {}
